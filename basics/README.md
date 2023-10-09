@@ -9,4 +9,10 @@ mv-Move a file
 rm-Remove a file
 rmdir-Remove or deete an empty directory
 cd ../-Return to previous working directory
-ls -la-List files in the current directory 
+ls -la-List files in the current directory
+file-Prints the type of the file 
+ln -s-Create a symbolic link
+cp-Copy files from current working directory
+find + mv-move the file being specific of what you are moving
+rm -f *~ -Delete files that end with the ~
+mkdir -p welcome/to/school - this will create the directories 'welcome/', 'welcome/to/', and 'welcome/to/school/ in the current directory
