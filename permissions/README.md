@@ -3,8 +3,9 @@ whoami - Prints the effective username of the current user
 groups - Prints all the groups current users us part of
 chown - To change the user of the file 'name' to the user 'name' 
 touch - Create an empty file
-chmod - To execute permission to the owner of the file
+chmod 744 - To execute permission to the owner of the file
 chmod - u+x (execute permission to the owner), g+x (the group of the owner), o+r (read permission to other users for the file)
 chmod ugo+x (execution permission to the owner, the group owner, and other user for the file)
 chmod 007 (set the permissions owner: no permission at all, Group: no permission at all, Other users: all the permissions)
-chmod 731 (set the mode of the 'file' 
+chmod 733 (set the mode of the 'file' 
+chmod --reference=olleh hello - Set the mode of the 'hello' file the same as the 'olleh' file
