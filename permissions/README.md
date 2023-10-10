@@ -13,3 +13,4 @@ find . -type d -exec chmod ugo+x {} +  -  To add execute permission to all subdi
 mkdir -m 751 my_dir   -  Create the directory "my_dir" with permissions 751 in working directory
 sudo chown :school hello   -  Change the group owner of the file "hello" to "school" in the working directory
 sudo chown -R vincent:staff  -  Change the owner to "vincent" and the group owner to "staff" for all files and directories in the working directory
+sudo chown vincent:staff _hello   -  Change the owner and group owner of the symbolic link "_hello" to "vincent" and "staff", respectively
