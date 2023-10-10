@@ -9,3 +9,5 @@ chmod ugo+x (execution permission to the owner, the group owner, and other user 
 chmod 007 (set the permissions owner: no permission at all, Group: no permission at all, Other users: all the permissions)
 chmod 733 (set the mode of the 'file' 
 chmod --reference=olleh hello - Set the mode of the 'hello' file the same as the 'olleh' file
+find . -type d -exec chmod ugo+x {} +  -  To add execute permission to all subdirectories of the current directory for the owner, the group owner, and all other users while leaving regular files unchanged
+mkdir -m 751 my_dir   -  Create the directory "my_dir" with permissions 751 in working directory
