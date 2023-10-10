@@ -1,2 +1,2 @@
 #!/bin/bash
-umask 002 chmod 715 hello  
+chmod 753 hello  
