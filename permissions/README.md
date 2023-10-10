@@ -12,3 +12,4 @@ chmod --reference=olleh hello - Set the mode of the 'hello' file the same as the
 find . -type d -exec chmod ugo+x {} +  -  To add execute permission to all subdirectories of the current directory for the owner, the group owner, and all other users while leaving regular files unchanged
 mkdir -m 751 my_dir   -  Create the directory "my_dir" with permissions 751 in working directory
 sudo chown :school hello   -  Change the group owner of the file "hello" to "school" in the working directory
+sudo chown -R vincent:staff  -  Change the owner to "vincent" and the group owner to "staff" for all files and directories in the working directory
