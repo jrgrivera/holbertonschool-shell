@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -iname "*.gif" -exec sh -c 'echo "${1%.*}"' _ {} \ | sort -f
+find . -type f -iname "*.gif" | sed 's/.*\///;s/\.[^.]*$//' | sort -f
