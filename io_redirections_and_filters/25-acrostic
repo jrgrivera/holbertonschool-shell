@@ -1,2 +1,2 @@
 #!/bin/bash
-acrostic=$(cut -c1 An\ Acrostic | tr -d '\n') | echo "$acrostic"
+cut -c1 An\ Acrostic | tr -d '\n' | printf "\n"
