@@ -1,6 +1,2 @@
 #!/bin/bash
-# 25-acrostic
-# The 'cat' command reads from stdin and processes each line.
-# 'cut -c1' extracts the first character of each line.
-# 'tr -d '\n'' removes newline characters to combine the characters into one line.
 cat | cut -c1 | tr -d '\n'
