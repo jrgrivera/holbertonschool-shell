@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c1 | tr -d '\n'
+cut -c1 | tr -d '\n' < /proc/$$/fd/0 1> /proc/$$/fd/1
