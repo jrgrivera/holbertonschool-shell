@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -iname "*.gif" -exec sh -c 'echo "$1" | rev | tr -d "/." | rev' _ {} \+ | sort -f
+find . -type f -iname "*.gif" -exec sh -c 'echo "$1" | rev | tr -d "/." | cut -d"." -f2- | rev' {} \+ | sort -f
