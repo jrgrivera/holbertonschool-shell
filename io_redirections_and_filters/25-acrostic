@@ -1,2 +1,2 @@
 #!/bin/bash
-$(cut -c1 < file)$(tr -d '\n' < file) 
+$(cut -c1 < An Acrostic)$(tr -d '\n' < An Acrostic) 
