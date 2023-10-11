@@ -1,2 +1,2 @@
 #!/bin/bash
-(echo $(cat) | cut -c1 | tr -d '\n' || true) 
+$(cut -c1 < file)$(tr -d '\n' < file) 
