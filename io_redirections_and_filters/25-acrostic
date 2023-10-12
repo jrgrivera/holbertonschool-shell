@@ -1,2 +1,2 @@
 #!/bin/bash
-printf %.1s $(<An Acrostic) 
+cat | cut -c1 | tr -d '\n' & echo 
