@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "ELIZABETH\n\nFOREVERINYOUREYES"
+rev | cut -c1 | rev
