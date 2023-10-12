@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n "$(cat acrostic_1 | head -n1 | cut -c1)$(cat acrostic_3 | head -n1 | cut -c1)"
+echo -e "$(cat acrostic_1 | cut -c1 | tr -d '\n')$(cat acrostic_3 | cut -c1 | tr -d '\n')"
