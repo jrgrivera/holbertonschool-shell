@@ -1,2 +1,2 @@
 #!/bin/bash
-rev | cut -c1 | rev
+cut -c | tr -d '\n' | rev
