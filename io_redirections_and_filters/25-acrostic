@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "$(ls An\ Acrostic | cut -c1 | tr -d '\n')"\
+echo -e "$(ls Acrostic | cut -c1 | tr -d '\n')"\
