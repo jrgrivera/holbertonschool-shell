@@ -1,2 +1,3 @@
 #!/bin/bash
-./25-acrostic < An\ Acrostic
+echo -e "$(cat acrostic_1 | cut -c1 | tr -d '\n')$(cat acrostic_3 | cut -c1 | tr -d '\n')"
+
