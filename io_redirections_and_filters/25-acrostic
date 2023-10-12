@@ -1,2 +1,2 @@
 #!/bin/bash
-(echo $(head -1 "An Acrostic") | tr -d '\n')$(cat "An Acrostic" | cut -c1 | tr -d '\n') & echo 
+(cat "An Acrostic" | cut -c1 | tr -d '\n') & echo 
